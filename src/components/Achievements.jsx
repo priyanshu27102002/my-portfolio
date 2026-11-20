@@ -1,5 +1,5 @@
 
-import { Cloud, Code2 } from "lucide-react";
+import { Award, BookOpen, Cloud, Code2 } from "lucide-react";
 
 const achievements = [
   {
@@ -8,6 +8,22 @@ const achievements = [
     description:
       "Earned AWS Certified Cloud Practitioner certification.",
     certificate: "/certificates/aws-cloud-practitioner.pdf",
+    linkText: "View Certificate"
+  },
+  {
+    icon: Award,
+    title: "Laravel Development Training By Think Again Lab",
+    description:
+      "Completed practical training in Laravel and PHP development.",
+    certificate: "/certificates/laravel-training.pdf",
+    linkText: "View Certificate"
+  },
+  {
+    icon: BookOpen,
+    title: "Laravel Development Course By Udemy",
+    description:
+      "Completed an online Laravel course to strengthen backend development skills.",
+    certificate: "/certificates/udemy-laravel.pdf",
     linkText: "View Certificate"
   },
   {
