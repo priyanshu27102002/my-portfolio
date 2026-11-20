@@ -655,6 +655,10 @@ button {
     transform: translateY(0);
   }
 }
+#projects .section-heading {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 
 /* =====================================
